@@ -532,7 +532,7 @@
               </svg>
             </div>
           </div>
-          <div class="form-field">
+          <div class="form-field-textarea">
             <label for="user-text" class="modal-label">Комментарий</label>
             <textarea
               name="user-text"
@@ -540,8 +540,22 @@
               class="modal-text"
               placeholder="Введите текст"
             ></textarea>
-            <button type="submit" class="modal-btn">Отправить</button>
           </div>
+          <div class="form-field-checkbox">
+            <input
+              type="checkbox"
+              class="modal-check visually-hidden"
+              name="modal-check"
+              id="modal-check"
+            />
+            <label for="modal-check" class="modal-check-text"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="">
+                <span class="modal-check-contract">Условия договора</span>
+              </a>
+            </label>
+          </div>
+          <button type="submit" class="modal-btn">Отправить</button>
         </form>
       </div>
     </div>
